@@ -38,10 +38,7 @@ public class AuthController : ControllerBase
 
         var result = await _userManager.CreateAsync(user, model.Password);
 
-        if (!result.Succeeded)
-        {
-            return BadRequest(result.Errors);
-        }
+        if (!result.Succeeded) return BadRequest(result.Errors);
 
         return Ok();
     }
@@ -52,17 +49,11 @@ public class AuthController : ControllerBase
     {
         var user = await _userManager.FindByNameAsync(model.Email);
 
-        if (user == null)
-        {
-            return Unauthorized();
-        }
+        if (user == null) return Unauthorized();
 
         var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
 
-        if (!result.Succeeded)
-        {
-            return Unauthorized();
-        }
+        if (!result.Succeeded) return Unauthorized();
 
         var tokenHandler = new JwtSecurityTokenHandler();
         var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Secret"]);
@@ -70,8 +61,8 @@ public class AuthController : ControllerBase
         {
             Subject = new ClaimsIdentity(new Claim[]
             {
-                new Claim(ClaimTypes.NameIdentifier, user.Id),
-                new Claim(ClaimTypes.Email, user.Email)
+                new(ClaimTypes.NameIdentifier, user.Id),
+                new(ClaimTypes.Email, user.Email)
             }),
             Expires = DateTime.UtcNow.AddDays(7),
             SigningCredentials =
@@ -89,10 +80,7 @@ public class AuthController : ControllerBase
     {
         var user = await _userManager.GetUserAsync(User);
 
-        if (user == null)
-        {
-            return NotFound();
-        }
+        if (user == null) return NotFound();
 
         return Ok(user);
     }

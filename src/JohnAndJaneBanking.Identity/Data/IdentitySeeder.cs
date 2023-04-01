@@ -35,15 +35,12 @@ public class IdentitySeeder
                 Email = "admin@bank.com",
                 UserName = "admin@bank.com",
                 FirstName = "Admin",
-                LastName = "User",
+                LastName = "User"
             };
 
             var result = await userManager.CreateAsync(user, "AdminPass123!");
 
-            if (result.Succeeded)
-            {
-                await userManager.AddToRoleAsync(user, "Admin");
-            }
+            if (result.Succeeded) await userManager.AddToRoleAsync(user, "Admin");
         }
     }
 }
