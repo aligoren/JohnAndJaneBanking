@@ -1,7 +1,0 @@
-H:\DotnetProjects\JohnAndJaneBanking\JohnAndJaneBanking.Identity\obj\Debug\net7.0\JohnAndJaneBanking.Identity.csproj.AssemblyReference.cache
-H:\DotnetProjects\JohnAndJaneBanking\JohnAndJaneBanking.Identity\obj\Debug\net7.0\JohnAndJaneBanking.Identity.GeneratedMSBuildEditorConfig.editorconfig
-H:\DotnetProjects\JohnAndJaneBanking\JohnAndJaneBanking.Identity\obj\Debug\net7.0\JohnAndJaneBanking.Identity.AssemblyInfoInputs.cache
-H:\DotnetProjects\JohnAndJaneBanking\JohnAndJaneBanking.Identity\obj\Debug\net7.0\JohnAndJaneBanking.Identity.AssemblyInfo.cs
-H:\DotnetProjects\JohnAndJaneBanking\JohnAndJaneBanking.Identity\obj\Debug\net7.0\JohnAndJaneBanking.Identity.csproj.CoreCompileInputs.cache
-H:\DotnetProjects\JohnAndJaneBanking\JohnAndJaneBanking.Identity\obj\Debug\net7.0\JohnAndJaneBanking.Identity.MvcApplicationPartsAssemblyInfo.cs
-H:\DotnetProjects\JohnAndJaneBanking\JohnAndJaneBanking.Identity\obj\Debug\net7.0\JohnAndJaneBanking.Identity.MvcApplicationPartsAssemblyInfo.cache

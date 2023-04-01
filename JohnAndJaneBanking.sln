@@ -6,29 +6,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F1F281DD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{8FE1868E-8C06-4472-AA16-8D6AB38418AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Api", "JohnAndJaneBanking.Api\JohnAndJaneBanking.Api.csproj", "{93341343-86F9-45EE-8421-A910C73053D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Api", "src\JohnAndJaneBanking.Api\JohnAndJaneBanking.Api.csproj", "{93341343-86F9-45EE-8421-A910C73053D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Customers", "JohnAndJaneBanking.Customers\JohnAndJaneBanking.Customers.csproj", "{6E2957EB-E876-45DA-8804-31DCEEBA8C2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Customers", "src\JohnAndJaneBanking.Customers\JohnAndJaneBanking.Customers.csproj", "{6E2957EB-E876-45DA-8804-31DCEEBA8C2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Transactions", "JohnAndJaneBanking.Transactions\JohnAndJaneBanking.Transactions.csproj", "{184EBBB6-227D-471C-860E-4D1D9E89A401}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Transactions", "src\JohnAndJaneBanking.Transactions\JohnAndJaneBanking.Transactions.csproj", "{184EBBB6-227D-471C-860E-4D1D9E89A401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Accounts", "JohnAndJaneBanking.Accounts\JohnAndJaneBanking.Accounts.csproj", "{50A73AEB-D13D-4DB2-995A-DF290B3D60BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Accounts", "src\JohnAndJaneBanking.Accounts\JohnAndJaneBanking.Accounts.csproj", "{50A73AEB-D13D-4DB2-995A-DF290B3D60BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Notifications", "JohnAndJaneBanking.Notifications\JohnAndJaneBanking.Notifications.csproj", "{D16739FE-64A2-4495-9E8C-73A1453263D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Notifications", "src\JohnAndJaneBanking.Notifications\JohnAndJaneBanking.Notifications.csproj", "{D16739FE-64A2-4495-9E8C-73A1453263D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Identity", "JohnAndJaneBanking.Identity\JohnAndJaneBanking.Identity.csproj", "{FFD1335D-56D5-4F10-B4A0-767C32EEB372}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Identity", "src\JohnAndJaneBanking.Identity\JohnAndJaneBanking.Identity.csproj", "{FFD1335D-56D5-4F10-B4A0-767C32EEB372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Api.Tests", "JohnAndJaneBanking.Api.Tests\JohnAndJaneBanking.Api.Tests.csproj", "{ECDF34CF-E7E6-4E74-B886-5C375610AD47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Api.Tests", "tests\JohnAndJaneBanking.Api.Tests\JohnAndJaneBanking.Api.Tests.csproj", "{ECDF34CF-E7E6-4E74-B886-5C375610AD47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Customers.Tests", "JohnAndJaneBanking.Customers.Tests\JohnAndJaneBanking.Customers.Tests.csproj", "{79A8B5CD-C503-4A71-A041-4F673A1953D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Customers.Tests", "tests\JohnAndJaneBanking.Customers.Tests\JohnAndJaneBanking.Customers.Tests.csproj", "{79A8B5CD-C503-4A71-A041-4F673A1953D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Transactions.Tests", "JohnAndJaneBanking.Transactions.Tests\JohnAndJaneBanking.Transactions.Tests.csproj", "{2C50F086-42CC-4D88-AEAF-A54A20BBFDC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Transactions.Tests", "tests\JohnAndJaneBanking.Transactions.Tests\JohnAndJaneBanking.Transactions.Tests.csproj", "{2C50F086-42CC-4D88-AEAF-A54A20BBFDC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Accounts.Tests", "JohnAndJaneBanking.Accounts.Tests\JohnAndJaneBanking.Accounts.Tests.csproj", "{F6B5D46F-A9BA-41E0-841A-CFDB8BC2806B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Accounts.Tests", "tests\JohnAndJaneBanking.Accounts.Tests\JohnAndJaneBanking.Accounts.Tests.csproj", "{F6B5D46F-A9BA-41E0-841A-CFDB8BC2806B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Notifications.Tests", "JohnAndJaneBanking.Notifications.Tests\JohnAndJaneBanking.Notifications.Tests.csproj", "{326211EA-690E-4B5F-B2BD-F177C2CD2396}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Notifications.Tests", "tests\JohnAndJaneBanking.Notifications.Tests\JohnAndJaneBanking.Notifications.Tests.csproj", "{326211EA-690E-4B5F-B2BD-F177C2CD2396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Identity.Tests", "JohnAndJaneBanking.Identity.Tests\JohnAndJaneBanking.Identity.Tests.csproj", "{E3BDAC27-45D4-46B4-BC24-134AD3FC7E27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnAndJaneBanking.Identity.Tests", "tests\JohnAndJaneBanking.Identity.Tests\JohnAndJaneBanking.Identity.Tests.csproj", "{E3BDAC27-45D4-46B4-BC24-134AD3FC7E27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
